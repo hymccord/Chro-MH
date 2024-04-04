@@ -2,7 +2,7 @@
 // @name         MH - Consolidated Map Colour Coder
 // @description  Colour code your maps
 // @author       Chromatical
-// @version      1.2.11
+// @version      1.2.12
 // @match        https://www.mousehuntgame.com/*
 // @match        https://apps.facebook.com/mousehunt/*
 // @icon         https://www.google.com/s2/favicons?domain=mousehuntgame.com
