@@ -85,7 +85,7 @@ function colourise(){
     var allList = $(".treasureMapView-goals-group-goal")
     //Reset to white background
     for (var a=0;a<allList.length;a++){
-        allList[a].style.backgroundColor = "white"
+        allList[a].style.removeProperty("backgroundColor");
     };
     var caughtList = [];
     var uncaughtList = [];
@@ -559,8 +559,8 @@ function settings(){
                         }
                     }));
                 } else if (current.indexOf(mouseName)>=0){
-                    this.style.backgroundColor = "white";
-                    this.style.fontWeight = "";
+                    this.style.removeProperty("backgroundColor");
+                    this.style.removeProperty("fontWeight");
                     var x = current.indexOf(mouseName);
                     current.splice(x,1);
                     if (target.children.length !== 0){
